@@ -219,7 +219,20 @@ header {
     url(./assets/asset\ 39.jpeg);
   background-size: cover;
 }
-
+.cta-section {
+  background-color: var(--accent-color-dark);
+  padding-bottom: 80px;
+}
+.cta-container {
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  align-items: center;
+}
+.cta-container p {
+  color: white;
+  margin-top: 20px;
+}
 .spacer {
   min-height: 100vh;
 }
