@@ -5,6 +5,9 @@
 .nav-toggle{
     display: none;
 }
+.example-card{
+    height: 300px;
+}
 @media screen and (max-width: 991px) {
     .nav-toggle{
         display: block;
@@ -14,5 +17,40 @@
     .nav-links{
         display: none;
     }
+    .example-area{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .example-card{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+    .logos{
+        justify-content: space-evenly;
+    }
     
+}
+
+@media screen and (max-width: 767px) {
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        width: 100%;
+        text-align:center;
+    }
+    .primary-button{
+        width: 100%;
+    }
+    .header-right img{
+        width: 100%;
+    }
+    .big-feature-container{
+        flex-direction: column;
+    }
+    #spl-cont{
+        flex-direction: column-reverse;
+    }
+
+  
 }
